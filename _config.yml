@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 바비탁스
-email: ejjoo7994@gmail.com
+title: BabiTaks
+email: dltkdehstm12@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
-  바비탁스
+  Tech stack
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: ejjoo
+github_username: ComitSoftware
 highlighter: rouge
 svg:
-  optimize: true
+  optimize: false
 # Build settings
 # theme: minima
 highlighter-theme: monokai

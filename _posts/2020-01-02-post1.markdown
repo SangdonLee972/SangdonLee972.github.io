@@ -9,5 +9,5 @@ category: sample
 
 This is code
 ```ruby
-print '반가워요'
+print '헬로월드'
 ```
