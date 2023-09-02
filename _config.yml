@@ -18,19 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: BabiTaks
+title: Doctor Pitch
 email: dltkdehstm12@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Tech stack
+  Tech stack Site
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ComitSoftware
 highlighter: rouge
 svg:
-  optimize: false
+  optimize: true
 # Build settings
 # theme: minima
-highlighter-theme: monokai
+highlighter-theme: minima
 date_format: "%Y-%M-%D"
 plugins:
   - jekyll-feed
