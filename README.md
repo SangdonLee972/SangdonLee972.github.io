@@ -195,6 +195,7 @@ FireBase에서 정확한 데이터의 통계와 서버사용량 , 유저 관리 
   - 의사 등록
   - 병원 이벤트 등록
   - 병원 등록
+  - 미리 결제
 
 
   해당 사항들은 바비톡 사이트에서 등록하는 방식으로 이부분은 이메일로  정보를 보내어 등록을 진행 할 수 있게끔 했습니다.
@@ -214,5 +215,129 @@ FireBase에서 정확한 데이터의 통계와 서버사용량 , 유저 관리 
 
 
 <br><br>
+
 ## 개발 어플리케이션 사진
 > 저희 개발팀이 개발한 Doctor Pitch의 어플 사진을 함께 보시겠습니다.
+
+
+<div style="display: flex; justify-content: space-between; max-width: 600px; margin: 20px;">
+     <div style="width: 600px; height: 400px;">
+        <img src="/public/img/1.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+
+     <div style="width: 600px; height: 400px;">
+        <img src="/public/img/2.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+
+         <div style="width: 600px; height: 400px;">
+        <img src="/public/img/3.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+    
+             <div style="width: 600px; height: 400px;">
+        <img src="/public/img/4.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+    
+
+    
+
+</div>
+
+
+
+
+<div style="display: flex; justify-content: space-between; max-width: 600px; margin: 20px;">
+     <div style="width: 600px; height: 400px;">
+        <img src="/public/img/5.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+
+     <div style="width: 600px; height: 400px;">
+        <img src="/public/img/6.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+
+         <div style="width: 600px; height: 400px;">
+        <img src="/public/img/7.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+    
+             <div style="width: 600px; height: 400px;">
+        <img src="/public/img/8.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+    
+
+    
+
+</div>
+
+
+
+<div style="display: flex; justify-content: space-between; max-width: 600px; margin: 20px;">
+     <div style="width: 600px; height: 400px;">
+        <img src="/public/img/9.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+
+     <div style="width: 600px; height: 400px;">
+        <img src="/public/img/10.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+
+         <div style="width: 600px; height: 400px;">
+        <img src="/public/img/11.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+    
+             <div style="width: 600px; height: 400px;">
+        <img src="/public/img/12.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+    
+
+    
+
+</div>
+
+
+<div style="display: flex; justify-content: space-between; max-width: 600px; margin: 20px;">
+     <div style="width: 600px; height: 400px;">
+        <img src="/public/img/13.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+
+     <div style="width: 600px; height: 400px;">
+        <img src="/public/img/14.png" alt="alt text" style="width: 100%; height: 100%; object-fit: contain; padding: 5px;" />
+    </div>
+
+
+    
+
+    
+
+</div>
+
+차례 대로
+- 자유톡 글쓰는 화면
+- 현재 이벤트 리스트 ( 카테고리 별로 구분 )
+- 이벤트 화면 내부
+- 의사/병원에 병원페이지
+- 의사/병원에 의사페이지
+- 마이페이지 ( 프로필 교체등 모두 가능 )
+- 검색기능
+- 이벤트 기능
+- 메인화면
+- 회원가입화면
+- 로그인화면
+- 홈화면 ( 주택담보대출 Banner가 있습니다 이부분 따로수정 필요합니다 )
+- 리뷰 화면
+- 자유톡 리스트 화면
+
+해당 사항들 모두 글쓰기가 가능하며 정보 동기화, 서버 동기화 처리가 모두 되어있는상태며 채팅 및 유저정보보기등 몇가지 사진들이 빠졌지만 모두 구현되어있는 상태입니다.
+
+<br><br>
+
+## 미완성 기능
+> 미완성 기능 안내
+
+
+현재 개발은 모두 진행되었지만 미완성된 기능이 한가지 있습니다.
+" 미리 결제 " 기능입니다.
+
+해당 사항 같은 경우는 어플리케이션이 마켓스토어에 "등록" 되어야지만 추가할 수 있는 사항입니다.
+
+이부분 결제 시스템이나 결제 폼은 준비가 되어있어서 어플리케이션을 등록 후 결체처리 시스템을 구글및 애플과 연동하여 진행하면 좋을 것 같습니다. 
+
+해당기능을 위해 먼저 앱 마켓 어플리케이션 등록이 먼저입니다!
+
